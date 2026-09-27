@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acidet dhe Bazat e Dobëta</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+            <h1>🧪 Acidet dhe Bazat e Dobëta</h1>
+            <p>Ka • Kb • pKa • pKb • Njehsimet</p>
+        </div>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#hyrje">Hyrje</a>
+        <a href="#ka">Ka</a>
+        <a href="#kb">Kb</a>
+        <a href="#pka">pKa & pKb</a>
+        <a href="#njehsime">Njehsime</a>
+        <a href="#shembuj">Shembuj</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+
+    <main>
+
+        <!-- HYRJE -->
+        <section id="hyrje" class="hero">
+            <div>
+                <span class="etiketa">KIMI • PËRMBLEDHJE</span>
+
+                <h2>Acidet dhe bazat e dobëta</h2>
+
+                <p>
+                    Acidet dhe bazat e dobëta nuk jonizohen plotësisht
+                    në ujë. Për të përshkruar sa shumë jonizohen,
+                    përdorim konstantet <strong>Ka</strong> dhe
+                    <strong>Kb</strong>.
+                </p>
+
+                <button onclick="scrollToSection('ka')">
+                    Fillo mësimin →
+                </button>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-title">Konstantet kryesore</div>
+
+                <div class="mini-formula">
+                    <span>Ka</span>
+                    <b>Acidi</b>
+                </div>
+
+                <div class="mini-formula">
+                    <span>Kb</span>
+                    <b>Baza</b>
+                </div>
+
+                <div class="mini-formula">
+                    <span>pKa</span>
+                    <b>−log Ka</b>
+                </div>
+
+                <div class="mini-formula">
+                    <span>pKb</span>
+                    <b>−log Kb</b>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ACIDET E DOBËTA -->
+        <section class="lesson">
+
+            <div class="section-title">
+                <span>01</span>
+                <h2>Acidet e dobëta</h2>
+            </div>
+
+            <p>
+                Një acid i dobët është acid që <strong>jonizohet vetëm
+                pjesërisht</strong> në ujë. Pra, vetëm një pjesë e
+                molekulave të acidit shndërrohet në jone.
+            </p>
+
+            <div class="info-grid">
+
+                <div class="info-card acid">
+                    <div class="icon">🧪</div>
+                    <h3>Shembull</h3>
+
+                    <p>
+                        Acidi acetik:
+                    </p>
+
+                    <div class="big-formula">
+                        CH₃COOH
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Jonizimi</h3>
+
+                    <div class="equation">
+                        CH₃COOH ⇌ H⁺ + CH₃COO⁻
+                    </div>
+
+                    <p>
+                        Shenja ⇌ tregon se reaksioni është i kthyeshëm
+                        dhe vendoset një ekuilibër.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- KA -->
+        <section id="ka" class="lesson colored-section">
+
+            <div class="section-title">
+                <span>02</span>
+                <h2>Konstanta Ka</h2>
+            </div>
+
+            <p>
+                <strong>Ka</strong> është konstanta e disocimit të acidit.
+                Ajo tregon shkallën në të cilën një acid i dobët
+                jonizohet në ujë.
+            </p>
+
+            <div class="formula-main">
+                Ka = [H⁺][A⁻] / [HA]
+            </div>
+
+            <div class="cards-3">
+
+                <div>
+                    <strong>Ka e madhe</strong>
+                    <p>Acidi jonizohet më shumë.</p>
+                </div>
+
+                <div>
+                    <strong>Ka e vogël</strong>
+                    <p>Acidi jonizohet më pak.</p>
+                </div>
+
+                <div>
+                    <strong>Ka → fuqia</strong>
+                    <p>Sa më e madhe Ka, aq më i fortë është acidi.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BAZAT -->
+        <section class="lesson">
+
+            <div class="section-title">
+                <span>03</span>
+                <h2>Bazat e dobëta</h2>
+            </div>
+
+            <p>
+                Bazat e dobëta nuk reagojnë plotësisht me ujin.
+                Ato marrin vetëm një pjesë të protoneve dhe krijojnë
+                një ekuilibër.
+            </p>
+
+            <div class="info-grid">
+
+                <div class="info-card base">
+
+                    <div class="icon">⚗️</div>
+
+                    <h3>Shembull</h3>
+
+                    <div class="big-formula">
+                        NH₃
+                    </div>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>Reaksioni me ujë</h3>
+
+                    <div class="equation">
+                        NH₃ + H₂O ⇌ NH₄⁺ + OH⁻
+                    </div>
+
+                    <p>
+                        Amoniaku është një shembull i një baze të dobët.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- KB -->
+        <section id="kb" class="lesson colored-section green">
+
+            <div class="section-title">
+                <span>04</span>
+                <h2>Konstanta Kb</h2>
+            </div>
+
+            <p>
+                <strong>Kb</strong> është konstanta e disocimit të bazës.
+                Ajo tregon sa shumë një bazë e dobët reagon me ujin.
+            </p>
+
+            <div class="formula-main">
+                Kb = [BH⁺][OH⁻] / [B]
+            </div>
+
+            <div class="cards-3">
+
+                <div>
+                    <strong>Kb e madhe</strong>
+                    <p>Baza jonizohet më shumë.</p>
+                </div>
+
+                <div>
+                    <strong>Kb e vogël</strong>
+                    <p>Baza jonizohet më pak.</p>
+                </div>
+
+                <div>
+                    <strong>Kb → fuqia</strong>
+                    <p>Sa më e madhe Kb, aq më e fortë është baza.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PKA PKB -->
+        <section id="pka" class="lesson">
+
+            <div class="section-title">
+                <span>05</span>
+                <h2>pKa dhe pKb</h2>
+            </div>
+
+            <p>
+                Për t'i shprehur konstantet Ka dhe Kb në mënyrë më të
+                përshtatshme, përdorim logaritmin negativ.
+            </p>
+
+            <div class="pk-grid">
+
+                <div class="pk-card">
+
+                    <h3>pKa</h3>
+
+                    <div class="formula-main">
+                        pKa = −log(Ka)
+                    </div>
+
+                    <p>
+                        Sa më e vogël pKa, aq më i fortë është acidi.
+                    </p>
+
+                </div>
+
+                <div class="pk-card">
+
+                    <h3>pKb</h3>
+
+                    <div class="formula-main">
+                        pKb = −log(Kb)
+                    </div>
+
+                    <p>
+                        Sa më e vogël pKb, aq më e fortë është baza.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="connection">
+
+                <h3>Lidhja mes Ka dhe pKa</h3>
+
+                <div class="formula-main">
+                    pKa = −log(Ka)
+                </div>
+
+                <div class="formula-main">
+                    Ka = 10<sup>−pKa</sup>
+                </div>
+
+                <hr>
+
+                <h3>Lidhja mes Kb dhe pKb</h3>
+
+                <div class="formula-main">
+                    pKb = −log(Kb)
+                </div>
+
+                <div class="formula-main">
+                    Kb = 10<sup>−pKb</sup>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TABELA -->
+        <section class="lesson">
+
+            <div class="section-title">
+                <span>06</span>
+                <h2>Tabela përmbledhëse</h2>
+            </div>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Konstanta</th>
+                            <th>Çfarë tregon?</th>
+                            <th>Formula</th>
+                            <th>Sa më e madhe...</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td><strong>Ka</strong></td>
+                            <td>Fuqinë e acidit</td>
+                            <td>Ka = [H⁺][A⁻]/[HA]</td>
+                            <td>Acidi më i fortë</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Kb</strong></td>
+                            <td>Fuqinë e bazës</td>
+                            <td>Kb = [BH⁺][OH⁻]/[B]</td>
+                            <td>Baza më e fortë</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>pKa</strong></td>
+                            <td>Fuqinë e acidit</td>
+                            <td>−log(Ka)</td>
+                            <td>Acidi më i dobët</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>pKb</strong></td>
+                            <td>Fuqinë e bazës</td>
+                            <td>−log(Kb)</td>
+                            <td>Baza më e dobët</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- NJEHSIME -->
+        <section id="njehsime" class="lesson calculator-section">
+
+            <div class="section-title">
+                <span>07</span>
+                <h2>Njehsimi i Ka, Kb, pKa dhe pKb</h2>
+            </div>
+
+            <p>
+                Përdor kalkulatorët më poshtë për të provuar shembuj
+                të ndryshëm.
+            </p>
+
+
+            <!-- Ka CALCULATOR -->
+
+            <div class="calculator">
+
+                <h3>🧪 Njehsimi i pKa nga Ka</h3>
+
+                <label>
+                    Shkruaj vlerën e Ka:
+                </label>
+
+                <input
+                    type="number"
+                    id="kaInput"
+                    placeholder="p.sh. 0.00001"
+                    step="any"
+                >
+
+                <button onclick="calculatePKA()">
+                    Llogarit pKa
+                </button>
+
+                <div id="kaResult" class="result">
+                    Rezultati do të shfaqet këtu.
+                </div>
+
+            </div>
+
+
+            <!-- pKa CALCULATOR -->
+
+            <div class="calculator">
+
+                <h3>🧪 Njehsimi i Ka nga pKa</h3>
+
+                <label>
+                    Shkruaj vlerën e pKa:
+                </label>
+
+                <input
+                    type="number"
+                    id="pkaInput"
+                    placeholder="p.sh. 5"
+                    step="any"
+                >
+
+                <button onclick="calculateKA()">
+                    Llogarit Ka
+                </button>
+
+                <div id="pkaResult" class="result">
+                    Rezultati do të shfaqet këtu.
+                </div>
+
+            </div>
+
+
+            <!-- Kb CALCULATOR -->
+
+            <div class="calculator">
+
+                <h3>⚗️ Njehsimi i pKb nga Kb</h3>
+
+                <label>
+                    Shkruaj vlerën e Kb:
+                </label>
+
+                <input
+                    type="number"
+                    id="kbInput"
+                    placeholder="p.sh. 0.00001"
+                    step="any"
+                >
+
+                <button onclick="calculatePKB()">
+                    Llogarit pKb
+                </button>
+
+                <div id="kbResult" class="result">
+                    Rezultati do të shfaqet këtu.
+                </div>
+
+            </div>
+
+
+            <!-- pKb CALCULATOR -->
+
+            <div class="calculator">
+
+                <h3>⚗️ Njehsimi i Kb nga pKb</h3>
+
+                <label>
+                    Shkruaj vlerën e pKb:
+                </label>
+
+                <input
+                    type="number"
+                    id="pkbInput"
+                    placeholder="p.sh. 5"
+                    step="any"
+                >
+
+                <button onclick="calculateKB()">
+                    Llogarit Kb
+                </button>
+
+                <div id="pkbResult" class="result">
+                    Rezultati do të shfaqet këtu.
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SHEMBUJ -->
+        <section id="shembuj" class="lesson">
+
+            <div class="section-title">
+                <span>08</span>
+                <h2>Shembuj të zgjidhur</h2>
+            </div>
+
+
+            <div class="example">
+
+                <div class="example-number">
+                    Shembulli 1
+                </div>
+
+                <h3>Gjej pKa nëse Ka = 1 × 10⁻⁵</h3>
+
+                <p><strong>Hapi 1:</strong> Përdorim formulën:</p>
+
+                <div class="equation">
+                    pKa = −log(Ka)
+                </div>
+
+                <p><strong>Hapi 2:</strong> Zëvendësojmë Ka:</p>
+
+                <div class="equation">
+                    pKa = −log(10⁻⁵)
+                </div>
+
+                <p><strong>Hapi 3:</strong></p>
+
+                <div class="answer">
+                    pKa = 5
+                </div>
+
+            </div>
+
+
+            <div class="example">
+
+                <div class="example-number">
+                    Shembulli 2
+                </div>
+
+                <h3>Gjej Ka nëse pKa = 4</h3>
+
+                <p><strong>Hapi 1:</strong></p>
+
+                <div class="equation">
+                    Ka = 10<sup>−pKa</sup>
+                </div>
+
+                <p><strong>Hapi 2:</strong></p>
+
+                <div class="equation">
+                    Ka = 10<sup>−4</sup>
+                </div>
+
+                <div class="answer">
+                    Ka = 1 × 10⁻⁴
+                </div>
+
+            </div>
+
+
+            <div class="example">
+
+                <div class="example-number">
+                    Shembulli 3
+                </div>
+
+                <h3>Gjej pKb nëse Kb = 1 × 10⁻³</h3>
+
+                <p><strong>Hapi 1:</strong></p>
+
+                <div class="equation">
+                    pKb = −log(Kb)
+                </div>
+
+                <p><strong>Hapi 2:</strong></p>
+
+                <div class="equation">
+                    pKb = −log(10⁻³)
+                </div>
+
+                <div class="answer">
+                    pKb = 3
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUIZ -->
+        <section id="quiz" class="lesson quiz-section">
+
+            <div class="section-title">
+                <span>09</span>
+                <h2>Mini Quiz 🧠</h2>
+            </div>
+
+            <div id="quizContainer"></div>
+
+            <button onclick="checkQuiz()" class="quiz-button">
+                Kontrollo përgjigjet
+            </button>
+
+            <div id="quizResult" class="quiz-result"></div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>🧪 Acidet & Bazat</h2>
+
+        <p>
+            Përmbledhje mësimore për Ka, Kb, pKa dhe pKb.
+        </p>
+
+        <p class="copyright">
+            Projekt shkollor • Kimi
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
